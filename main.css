@@ -54,16 +54,14 @@ CONTAINER
 /*******************************************
 PHOTO (AVATAR)
 *******************************************/
-#pdf-link:visited a:visited {
-  color: pink;
-  background-color: green;
-}
+
 #pdf-link {
   float: right;
   font-size: 1.3em;
   margin-right: 50px;
   margin-top: -20px;
   text-decoration: none;
+  color: #698b69;
 }
 #pdf-link:hover {
   background-color: #c6dcef;
@@ -251,10 +249,11 @@ EDUCATION
   display: inline-block;
 }
 #education .description{
-  width: 80%;
+  width: 75%;
   display: inline-block;
   background: #eee;
   margin-bottom: 40px;
+  margin-right: 15px;
   position: relative;
   padding: 10px 10px 0 10px;
   border-bottom: 1px solid #ddd;
