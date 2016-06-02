@@ -153,7 +153,9 @@ ABOUT
 /*******************************************
 PROJECTS
 *******************************************/
-
+#projectsbox{
+  padding-top: 10px;
+}
 .project-title {
   margin-top: 0px;
   font-size: 1.8em;
@@ -193,6 +195,7 @@ a.project-box-link:hover {
 }
 .project {
   margin-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .github-link p {
@@ -207,7 +210,7 @@ a.project-box-link:hover {
 EDUCATION
 *******************************************/
 #educationbox {
-  padding-top: 100px;
+  padding-top: 50px;
 
 }
 #education{
@@ -248,10 +251,10 @@ EDUCATION
   display: inline-block;
 }
 #education .description{
-  width: 60%;
+  width: 80%;
   display: inline-block;
   background: #eee;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   position: relative;
   padding: 10px 10px 0 10px;
   border-bottom: 1px solid #ddd;
@@ -283,6 +286,10 @@ EDUCATION
 /*******************************************
 EXPERIENCES
 *******************************************/
+#experiencebox {
+  padding-top: 10px;
+}
+
 .job{
   margin-bottom: 15px;
 }
@@ -370,7 +377,7 @@ SKILLS
   background: #698b69;
   color: #fff;
   padding: 5px 10px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
