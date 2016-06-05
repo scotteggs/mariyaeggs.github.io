@@ -18,18 +18,6 @@ SETTINGS
 /*******************************************
 testing
 *******************************************/
-#companyname {
-  background-color: lightblue;
-}
-#scott {
-  background-color: lightgreen;
-}
-#scott{
-  background-color: pink;
-}
-#scott{
-  background-color: orange;
-}
 
 /*******************************************
 BODY
@@ -108,7 +96,6 @@ MARIYA EGGENSPERGER TITLE
 #text-header:after{
   width: 100%;
   height: 3px;
-  margin-top: 10px;
   content: '';
   display: block;
 }
@@ -142,7 +129,7 @@ DEFAULT BOX
 ABOUT
 *******************************************/
 #mainleftcolumn {
-  padding-right: 100.0px; 
+  padding-right: 60.0px; 
 }
 #about p{
   font-size: 1.6em;
@@ -208,7 +195,7 @@ a.project-box-link:hover {
 EDUCATION
 *******************************************/
 #educationbox {
-  padding-top: 50px;
+  padding-top: 120px;
 
 }
 #education{
