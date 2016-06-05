@@ -54,28 +54,31 @@ PHOTO (AVATAR)
 #pdf-link:hover {
   background-color: #c6dcef;
   color: #428bca;
-  underline: none;
 }
-
-
 #resume-link {
   text-align: center;
-  font-size: 1.3em;
-  margin-top: -20px;
+  font-size: 1.0em;
   margin-bottom: 15px;
+  color: #698b69;
+}
+
+#resume-link p{
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 a.resume-link {
   font-size: 1.05em;
-  color: #428bca;
+  color: #698b69;
   text-decoration: none;
+  padding-bottom: 400px;
 }
+
 /*******************************************
 MARIYA EGGENSPERGER TITLE
 *******************************************/
 #text-header h1{
   color: #698b69;
-  margin: 15px 0 0 0;
   padding: 0;
   font-size: 2.0em;
   font-weight: 100;
@@ -87,7 +90,6 @@ MARIYA EGGENSPERGER TITLE
   font-size: 1.5em;
   letter-spacing: -2px;
   font-weight: 200;
-  line-height: 5.0em;
 }
 
 #text-header h1 sup{
@@ -138,9 +140,6 @@ ABOUT
 /*******************************************
 PROJECTS
 *******************************************/
-#projectsbox{
-  padding-top: 10px;
-}
 .project-title {
   margin-top: 0px;
   font-size: 1.8em;
@@ -190,12 +189,43 @@ a.project-box-link:hover {
 .github-link:hover {
   background-color: #c6dcef;
 }
+/*******************************************
+COURSES
+*******************************************/
+#coursesbox {
+  padding-top: 20px;
+}
+
+ul#courselist{
+  list-style: none;
+  padding: 0;
+}
+
+.course:hover {
+  background-color: lightgrey;
+  text-decoration: none;
+}
+.course a{
+  text-decoration: none;
+}
+
+.course p{
+  font-size: 1.5em; 
+}
+
+
+
+
+#courselist a{
+  color: black;
+  margin-left: -20;
+}
 
 /*******************************************
 EDUCATION
 *******************************************/
 #educationbox {
-  padding-top: 120px;
+  padding-top: 40px;
 
 }
 #education{
